@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lowkey-studying/static/css/main.f855e6bc.css",
+    "main.js": "/lowkey-studying/static/js/main.ea47b99c.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/lowkey-studying/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/logo.svg": "/lowkey-studying/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lowkey-studying/index.html",
+    "main.f855e6bc.css.map": "/lowkey-studying/static/css/main.f855e6bc.css.map",
+    "main.ea47b99c.js.map": "/lowkey-studying/static/js/main.ea47b99c.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/lowkey-studying/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ea47b99c.js"
+  ]
+}
