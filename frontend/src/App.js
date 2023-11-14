@@ -5,8 +5,10 @@ import {useState, useEffect} from 'react';
 function App() {
   
   const [documentVisible, setDocumentVisible] = useState(document.visibilityState);
+  const [users, setUsers] = useState(document.visibilityState);
   
   useEffect(() => {
+    console.log(window.navigator.appCodeName);
     const handleVisibilityChange = () =>
         setDocumentVisible(document.visibilityState);
 
