@@ -9,19 +9,20 @@ function App() {
   
   useEffect(() => {
     console.log(window.navigator.appCodeName);
-    const handleVisibilityChange = () =>
+    const handleVisibilityChange = () => {
+        console.log(document.visibilityState);
         setDocumentVisible(document.visibilityState);
-
+    }
     document.addEventListener(
         "visibilitychange",
         handleVisibilityChange,
     );
 
-    return () =>
-        document.removeEventListener(
-            "visibilitychange",
-            handleVisibilityChange,
-        );
+    return () => null;
+        // document.removeEventListener(
+        //     "visibilitychange",
+        //     handleVisibilityChange,
+        // );
 }, [document]);
 
   return (
